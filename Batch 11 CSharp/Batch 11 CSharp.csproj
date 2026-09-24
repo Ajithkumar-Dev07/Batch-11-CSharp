@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Batch_11_CSharp.Encapsulation.EncapsulationDemo</StartupObject>
+    <StartupObject>Batch_11_CSharp.FunctionDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
+    <Compile Include="Array\ArrayDemo.cs" />
+    <Compile Include="Array\JaggedArray.cs" />
+    <Compile Include="Array\TwoDimensionalArray.cs" />
     <Compile Include="CallByReference.cs" />
     <Compile Include="CallByValue.cs" />
     <Compile Include="ClassFields.cs" />
@@ -58,6 +61,7 @@
     <Compile Include="DemoClass.cs" />
     <Compile Include="Encapsulation\EncapsulationDemo.cs" />
     <Compile Include="FunctionCalling.cs" />
+    <Compile Include="FunctionDemo.cs" />
     <Compile Include="Functions\AnotherClass.cs" />
     <Compile Include="Functions\FunctionDemo.cs" />
     <Compile Include="Functions\NonStatic Function.cs" />
@@ -74,6 +78,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleTon.cs" />
+    <Compile Include="String and StringBuilder\Demo.cs" />
+    <Compile Include="String and StringBuilder\StringBuilderDemo.cs" />
+    <Compile Include="Variables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
