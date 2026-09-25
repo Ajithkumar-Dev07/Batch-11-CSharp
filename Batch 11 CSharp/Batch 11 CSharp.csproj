@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Batch_11_CSharp.FunctionDemo</StartupObject>
+    <StartupObject>Batch_11_CSharp.ExceptionDemo</StartupObject>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +53,7 @@
     <Compile Include="Array\TwoDimensionalArray.cs" />
     <Compile Include="CallByReference.cs" />
     <Compile Include="CallByValue.cs" />
+    <Compile Include="Casting.cs" />
     <Compile Include="ClassFields.cs" />
     <Compile Include="Constructor\Demo.cs" />
     <Compile Include="Constructor\DemoClass2.cs" />
@@ -60,6 +62,7 @@
     <Compile Include="Constructor\StaticConstructor.cs" />
     <Compile Include="DemoClass.cs" />
     <Compile Include="Encapsulation\EncapsulationDemo.cs" />
+    <Compile Include="ExceptionDemo.cs" />
     <Compile Include="FunctionCalling.cs" />
     <Compile Include="FunctionDemo.cs" />
     <Compile Include="Functions\AnotherClass.cs" />
